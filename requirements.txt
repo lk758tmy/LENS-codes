@@ -1,0 +1,5 @@
+# Python 3.14.6 environment
+numpy==2.5.1
+torch==2.14.0
+scipy==1.18.1
+matplotlib==3.11.1

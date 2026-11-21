@@ -1,0 +1,17 @@
+{
+  "source": "C",
+  "control": 2,
+  "n": 640,
+  "status": "converged",
+  "residual": 7.238816213117616e-10,
+  "minimum_discrete_eigenvalue": 0.5468331462519196,
+  "iterations": 3,
+  "build_seconds": 3.9828387000598013,
+  "fit_seconds": 25.506808900041506,
+  "flux_degree": 3,
+  "flux_radius_h": 6.0,
+  "flux_max_condition": 1186.2695063253504,
+  "run_id": "C_g2_n640",
+  "version": "a31017036a4ccd181835d8bc8d02384102ae824e0ccb44ac35918ac5368922cb",
+  "wall": 29.643669999903068
+}

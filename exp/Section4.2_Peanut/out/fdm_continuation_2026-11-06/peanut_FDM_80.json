@@ -1,0 +1,81 @@
+{
+  "run_id": "peanut_FDM_80",
+  "domain": "peanut",
+  "method": "FDM",
+  "nx": 80,
+  "ny": 68,
+  "power": {
+    "available": true,
+    "ac_line_status": 1,
+    "battery_percent": 100
+  },
+  "metrics": {
+    "E2": 6.1400044225553815e-06,
+    "Einf": 8.381218341533377e-06,
+    "u_scale": 1.6095324069596468,
+    "gauge": 6.911987375687766e-06,
+    "residual_inf": 1.921591774589615e-10,
+    "min_eig": 0.4354271372325238,
+    "unknowns": 4433
+  },
+  "timing": {
+    "build": 0.02806439995765686,
+    "fit": 0.21117080003023148
+  },
+  "iterations": 18,
+  "status": "converged",
+  "continuation": {
+    "fallback": true,
+    "quadratic_affine": [
+      1.232822602223164,
+      3.7183784939998077e-09,
+      1.2745466917862784
+    ],
+    "initial_min_eig": -0.8237602984208934,
+    "attempts": [
+      {
+        "level": 0.1,
+        "step": 0.1,
+        "predictor_min_eig": 0.8176239701588202,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.25,
+        "step": 0.15,
+        "predictor_min_eig": 0.5847065985963127,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.47500000000000003,
+        "step": 0.22500000000000003,
+        "predictor_min_eig": 0.32373995181660575,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.7250000000000001,
+        "step": 0.25000000000000006,
+        "predictor_min_eig": 0.17644829043001664,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.9750000000000001,
+        "step": 0.25,
+        "predictor_min_eig": 0.114259546782705,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 1.0,
+        "step": 0.02499999999999991,
+        "predictor_min_eig": 0.41229443678851707,
+        "status": "converged",
+        "iterations": 3
+      }
+    ],
+    "interior_initialization": "explicit quadratic plus discrete harmonic boundary lifting; no interior truth"
+  }
+}

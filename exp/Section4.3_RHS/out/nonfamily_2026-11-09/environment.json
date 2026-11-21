@@ -1,0 +1,7 @@
+{
+  "cpu": "Intel(R) Core(TM) Ultra 5 338H",
+  "python": "3.14.6",
+  "numpy": "2.5.1",
+  "torch": "2.14.0+xpu",
+  "threads": 4
+}

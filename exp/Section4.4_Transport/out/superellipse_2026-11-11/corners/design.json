@@ -1,0 +1,110 @@
+{
+  "version": "5af7af6089dbf6f9eabfff1f562ccb3afca7764c070d22a5d8767dbac6bb97ea",
+  "protocol": {
+    "K": 16,
+    "m": 256,
+    "lambda_joint": 0.4,
+    "delta": 0.1,
+    "iota": 0.02,
+    "mu_warm": 1e-08,
+    "rounds": [
+      60,
+      60,
+      200
+    ],
+    "coarse_K": 4,
+    "certificate_grid": 61,
+    "certificate_edge": 1025,
+    "audit_grid": 65,
+    "pde_grid": 65,
+    "metrics_grid": 65,
+    "audit_edge": 4097,
+    "t_pad": 0.05,
+    "curvature_guard_factor": 1.02,
+    "residual": "joint_square",
+    "coordinates": "stable_fixed_representative",
+    "curvature_step": "active_set_Schur_LM",
+    "query_points": 10000,
+    "query_reps": 5,
+    "boundary_audit": 2048,
+    "threads": 4,
+    "case_lambda": "see case",
+    "corner_weight": "see case",
+    "source_vertices": "see case",
+    "corner_index": "nearest joint sample; linearization frozen, trial objective re-minimized"
+  },
+  "cases": [
+    {
+      "id": "C_U_S_f1_n0",
+      "group": "corner",
+      "region": "U",
+      "target": "S",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 0.0,
+      "vertices": true
+    },
+    {
+      "id": "C_U_S_f1_n1",
+      "group": "corner",
+      "region": "U",
+      "target": "S",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 1.0,
+      "vertices": true
+    },
+    {
+      "id": "C_U_S_f1_n10",
+      "group": "corner",
+      "region": "U",
+      "target": "S",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 10.0,
+      "vertices": true
+    },
+    {
+      "id": "C_U_P_f1_n0",
+      "group": "corner",
+      "region": "U",
+      "target": "P",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 0.0,
+      "vertices": true
+    },
+    {
+      "id": "C_U_P_f1_n1",
+      "group": "corner",
+      "region": "U",
+      "target": "P",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 1.0,
+      "vertices": true
+    },
+    {
+      "id": "C_U_P_f1_n10",
+      "group": "corner",
+      "region": "U",
+      "target": "P",
+      "source": 1,
+      "K": 16,
+      "m": 256,
+      "lam": 0.4,
+      "nu": 10.0,
+      "vertices": true
+    }
+  ]
+}

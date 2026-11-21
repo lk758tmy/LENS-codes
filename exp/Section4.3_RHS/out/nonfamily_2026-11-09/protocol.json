@@ -1,0 +1,57 @@
+{
+  "source": "reciprocal_quartic",
+  "regions": [
+    "S",
+    "D",
+    "T",
+    "U"
+  ],
+  "K": 16,
+  "m": 256,
+  "lambda_joint": 0.4,
+  "delta": 0.1,
+  "iota": 0.02,
+  "stages": [
+    60,
+    60,
+    200
+  ],
+  "mu": [
+    0,
+    1e-08,
+    0
+  ],
+  "grid": 65,
+  "pde_grid": 65,
+  "threads": 4,
+  "boundary_metric": "absolute RMS of reconstructed field at the m boundary sites",
+  "reference_max_linear_residual": 4.440892098500626e-16,
+  "reference_max_inverse_error": 2.220446049250313e-16,
+  "hashes": {
+    "exp/Section4.3_RHS/run_nonfamily.py": "99a0fce30dcd4468e2aa79a6a9c0018b48e85b545b38f90fa7cb556ac9417059",
+    "lens/__init__.py": "4e08fa3f834be122f5e2990df16bf0513bf5fd43ea177ad9109ece12b8b73982",
+    "lens/basis.py": "0b98469907e4390752760fae1d3bf4f1f134beb2e9ae2397457f90cc7dd2b602",
+    "lens/basis_const.py": "64978c9221fd86421f772f54aa885b683b713daf8dca4bde8dce40fbc239abcc",
+    "lens/basis_fx.py": "ea9c6f80515b4c5ba9c44c1b1c1dfcec0390ddba13b4dd6fb37e0bb7885acb22",
+    "lens/cert.py": "1e1949ce0d876d21bd6ab9c32b3130355b273c36d9dd93de875c00e32761600f",
+    "lens/chart.py": "fca9fe4d7fd44341d46837a79266920ab277f7a644302e98d1570db2cf707b2c",
+    "lens/constrained_lm.py": "949bdb26e7957e87990b11baecdeea97d4d178102582addff303635df0abca0d",
+    "lens/env.py": "3a4b04bc7bbd500e45ea3106018446c5d5bf3a83c146946041f239f3f0bd5b97",
+    "lens/fit.py": "62f0799be9a625b556ecb1472eaefb6d59353b6f32c78d1bdbb52a16c0132338",
+    "lens/init.py": "a00d92b3d0581da4e00f42e1f2327c863d2c80b289e55d6ac0c67493e13fcbb2",
+    "lens/inverse_basis.py": "3cff3e78ae9a1be6a205898b4f4f5a911df7571527a362d43a9591c80b9b48df",
+    "lens/inverse_data.py": "a1dbc27869bd5446b0fa976e6825740bc149f26ce20cadbd1476d746182ef574",
+    "lens/inverse_diagnostics.py": "23d12d5eaee083eaf5ee7fec5918f082c8cb57337acd28515829c041dc29b5d8",
+    "lens/inverse_fit.py": "f1d2487e327a364e726a034b0526f11ff3da5d1b08ab014ca522ca933a0a84fe",
+    "lens/lm.py": "91d8d1adf6e03d2e45e03712d7cae32be083e2b177ed67ceebffb45eba186b81",
+    "lens/metrics.py": "38035246764edca5d9b77d20720320541e31755bd9b427ab5276e2541a1b331f",
+    "lens/plot.py": "89fb303db6d6f093da4a86b8ede32edb961fca19d661ee6589801ec72a84fe77",
+    "lens/regions.py": "61d36c5d9c6754c88f6b5e9e1992a7314d2fa5fcefead9844a5d5f8a428150fa",
+    "lens/res.py": "fca4ed2a5f47cfefe9941506138fe59f3fe524f482805d2832c64f1a95f8188e",
+    "lens/sources.py": "68667bb90ddea8d38485d726d281928b1ee81d53f5d1548af1358bacad9f5a68",
+    "lens/targets.py": "3085fb3870872d68843d90732fc15d53ab905226360be96e10a5673336d83258",
+    "lens/transport_cases.py": "7508ee145fc627640f889282f68ffa5d667d51abcb28cb71ec86187d3623851d",
+    "lens/transport_fit.py": "a8dfe4e1039451cf118018efe9b5b9bf4b637f9566a811baf8795db268c43f09",
+    "lens/truth.py": "2cafb520f12fcc056ea6178e4c9cbec500baa5e4fc35fce29e53fa3120f959a2"
+  }
+}

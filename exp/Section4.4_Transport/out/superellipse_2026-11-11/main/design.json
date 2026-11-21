@@ -1,0 +1,98 @@
+{
+  "version": "4c05921655ab1ac99f5884bb38fe0a88e2693d7726f21b9572e32b74607bfa6e",
+  "protocol": {
+    "K": 24,
+    "m": 256,
+    "lambda_joint": 0.4,
+    "delta": 0.1,
+    "iota": 0.02,
+    "mu_warm": 1e-08,
+    "rounds": [
+      60,
+      60,
+      200
+    ],
+    "coarse_K": 4,
+    "certificate_grid": 61,
+    "certificate_edge": 1025,
+    "audit_grid": 65,
+    "pde_grid": 65,
+    "metrics_grid": 65,
+    "audit_edge": 4097,
+    "t_pad": 0.05,
+    "curvature_guard_factor": 1.02,
+    "residual": "joint_square",
+    "coordinates": "stable_fixed_representative",
+    "curvature_step": "active_set_Schur_LM",
+    "query_points": 10000,
+    "query_reps": 5,
+    "boundary_audit": 2048,
+    "threads": 4
+  },
+  "cases": [
+    {
+      "id": "B_S_U_f1",
+      "group": "B",
+      "region": "S",
+      "target": "U",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_D_U_f0",
+      "group": "B",
+      "region": "D",
+      "target": "U",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_P_U_f1",
+      "group": "B",
+      "region": "P",
+      "target": "U",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_U_S_f1",
+      "group": "B",
+      "region": "U",
+      "target": "S",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_U_D_f0",
+      "group": "B",
+      "region": "U",
+      "target": "D",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_U_P_f1",
+      "group": "B",
+      "region": "U",
+      "target": "P",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_U_U_f0",
+      "group": "B",
+      "region": "U",
+      "target": "U",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    }
+  ],
+  "design": "Seven U pairs of the SDPU design; f=(i+j)%2; no independent full interaction estimates"
+}

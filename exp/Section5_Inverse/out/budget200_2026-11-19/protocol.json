@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "seconds": 200.0,
+  "interval": 5.0,
+  "FDM_n": 160,
+  "source_degree": 16,
+  "LENS_K": 24,
+  "noise_rho": {
+    "0": 0.0,
+    "0.01": 1e-08
+  },
+  "rho_rule": "zero for noiseless, otherwise fixed 1e-8; no scan or discrepancy gate",
+  "source_initial": "1",
+  "source_bounds": [
+    0.1,
+    3.0
+  ],
+  "normal_sensors": 64,
+  "dirichlet_points": 192,
+  "validation_points": 257,
+  "loads": 3,
+  "lens_warmup_stages": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      16,
+      24
+    ]
+  ],
+  "warmup_steps": 80,
+  "warmup_stage_max_seconds": 20.0,
+  "temporary_field_mu": 1e-08,
+  "final_mu": 0.0,
+  "final_ftol": null,
+  "final_selection": "last completed feasible iterate",
+  "timing": "construction and fitting; exclude imports, shared reference IO and post-fit evaluation",
+  "deadline": "keep last completed accepted iterate at or before budget; current atomic operation may finish later",
+  "early_stop": "retain numerically stationary/stalled final state for remaining budget",
+  "curve": "accepted states at >=5s intervals plus stage/final states; true errors evaluated afterward",
+  "environment": {
+    "cpu": "Intel(R) Core(TM) Ultra 5 338H",
+    "python": "3.14.6",
+    "numpy": "2.5.1",
+    "torch": "2.14.0+xpu",
+    "threads": 4
+  },
+  "hashes": {
+    "exp/Section5_Inverse/run_budget.py": "27bc406467d22506a0b624c0e7845c6706643a55bcbfd9ecfa7e019b26eedf80",
+    "lens/inverse_basis.py": "3cff3e78ae9a1be6a205898b4f4f5a911df7571527a362d43a9591c80b9b48df",
+    "lens/inverse_data.py": "a1dbc27869bd5446b0fa976e6825740bc149f26ce20cadbd1476d746182ef574",
+    "lens/inverse_diagnostics.py": "23d12d5eaee083eaf5ee7fec5918f082c8cb57337acd28515829c041dc29b5d8",
+    "lens/inverse_fit.py": "27034331bd7b7898c760f2cf65d49ccfa079b65c6871ec1a29fc8eea576e7320",
+    "refs/fdm_inverse.py": "b7efced4b4ddf41665e451bd78332fbef612ab93c6415dea8dc0a227c45a4729",
+    "refs/fdm.py": "ec58b556b21f8ba9659511159d91f2e5676fb4dbacfcd92dc28c3809b78596e9",
+    "lens/constrained_lm.py": "949bdb26e7957e87990b11baecdeea97d4d178102582addff303635df0abca0d",
+    "lens/env.py": "3a4b04bc7bbd500e45ea3106018446c5d5bf3a83c146946041f239f3f0bd5b97",
+    "lens/__init__.py": "4e08fa3f834be122f5e2990df16bf0513bf5fd43ea177ad9109ece12b8b73982",
+    "exp/Section4.4_Transport/work_profile.py": "9651daa9752cdcd4f0194efa383d54b929b2194043126945a7d945723d29ef67"
+  },
+  "references": {
+    "A_g0_n640.npz": "94a4e6f8a538b7c8cf543f889d56a39db3db0c197cf6351f94c4a6a07d7ef958",
+    "A_g1_n640.npz": "d3a62c9e5930c30150e11c854338a7da4d19486731bcdded44572ae52a7b886c",
+    "A_g2_n640.npz": "5ef5f58df486efffe07f0113311345ff89672c62b45870041d21ff0914d02dfa",
+    "C_g0_n640.npz": "d19d4efffd210859b12633493313bc226af98de9b5b663ab0d2233acc1943e4f",
+    "C_g1_n640.npz": "c62cd50d1197cad70b521cbcf2a44946aae762e14a92381280fe0534d41b9c7b",
+    "C_g2_n640.npz": "c2673250bc327fb4c421056e881defaff93e3e6a66a50d48000d8af19703915e"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "d26863c504c8fa2fd003af41672475a27701480a6da4726d64468005072f1866",
+  "protocol": {
+    "coordinates": "stable",
+    "metric": "Dirichlet relative to uncentered exact solution",
+    "grid": 65,
+    "pde_grid": 65,
+    "training_grid": 61,
+    "threads": 4,
+    "stages": [
+      60,
+      60,
+      200
+    ],
+    "mu": [
+      0,
+      1e-08,
+      0
+    ],
+    "lambda_joint": 0.4
+  }
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "run_id": "FDM_A_e0.01_s0",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.0304647680168273e-12,
+        "min_eigenvalue": 0.761366015850399
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 4.0286662894573055e-12,
+        "min_eigenvalue": 0.5706986346605994
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 8.911316129456281e-12,
+        "min_eigenvalue": 0.5470152252720601
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_A_e0.01_s1",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 4.878542014807863e-12,
+        "min_eigenvalue": 0.7487373194908287
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 8.203215884350357e-12,
+        "min_eigenvalue": 0.5652269666228873
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.4417134980581068e-11,
+        "min_eigenvalue": 0.5439517221446182
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_A_e0.01_s2",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 1.581579311960013e-11,
+        "min_eigenvalue": 0.7292971086744728
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 1.9222956559872273e-11,
+        "min_eigenvalue": 0.5578958558622411
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.3774759938532952e-11,
+        "min_eigenvalue": 0.5383879470286658
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_A_e0.01_s3",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 9.17954601220572e-12,
+        "min_eigenvalue": 0.7273251916458321
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 1.3772205598172604e-11,
+        "min_eigenvalue": 0.5553339541464936
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.1089796575779474e-11,
+        "min_eigenvalue": 0.5339332745503175
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_A_e0.01_s4",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 5.5280224842135794e-12,
+        "min_eigenvalue": 0.7411364022123053
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 9.369838238626471e-12,
+        "min_eigenvalue": 0.5621669175594599
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 1.9701795750393103e-11,
+        "min_eigenvalue": 0.538338560108272
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_A_e0_s0",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 2.823741240831623e-12,
+        "min_eigenvalue": 0.7453544074755882
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 4.7977177786151515e-12,
+        "min_eigenvalue": 0.5680771234876829
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 3.7723379975318494e-11,
+        "min_eigenvalue": 0.5482882393058623
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0.01_s0",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.4368063950296346e-12,
+        "min_eigenvalue": 0.6625118132231727
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 4.022338018216942e-12,
+        "min_eigenvalue": 0.579661609242197
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 4.09434708359413e-11,
+        "min_eigenvalue": 0.4837318151178886
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0.01_s1",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.2576163988551343e-12,
+        "min_eigenvalue": 0.6328790161690669
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 4.078959392472825e-12,
+        "min_eigenvalue": 0.5671516377417816
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 3.1796787425264483e-11,
+        "min_eigenvalue": 0.46455304867522595
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0.01_s2",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.362643496984674e-12,
+        "min_eigenvalue": 0.6604296284696892
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 5.289990667733946e-12,
+        "min_eigenvalue": 0.5793836157917218
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.7048696615850076e-11,
+        "min_eigenvalue": 0.4828803972675907
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0.01_s3",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.373412660323538e-12,
+        "min_eigenvalue": 0.6111366574472963
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 8.918643601418808e-12,
+        "min_eigenvalue": 0.5577236562177454
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.767419626792389e-11,
+        "min_eigenvalue": 0.4496911271645034
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0.01_s4",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.3002489630007403e-12,
+        "min_eigenvalue": 0.5926064090604919
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 5.508260514375252e-12,
+        "min_eigenvalue": 0.5460259313633608
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 2.6642688055744657e-11,
+        "min_eigenvalue": 0.43452330980192483
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "FDM_B_e0_s0",
+    "convex_discrete_fields": true,
+    "forward": [
+      {
+        "input": 0,
+        "iterations": 0,
+        "residual_inf": 3.4712233087930144e-12,
+        "min_eigenvalue": 0.6051064772061423
+      },
+      {
+        "input": 1,
+        "iterations": 0,
+        "residual_inf": 4.3647307990113404e-12,
+        "min_eigenvalue": 0.5543663414386881
+      },
+      {
+        "input": 2,
+        "iterations": 0,
+        "residual_inf": 3.472977461171922e-11,
+        "min_eigenvalue": 0.4446695110382502
+      }
+    ],
+    "final_replay_max_q_difference": 0.0
+  },
+  {
+    "run_id": "LENS_A_e0.01_s0",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.7161161380840895e-11,
+        "linear_pde_max": 1.819411288295214e-11,
+        "field_E2": 0.0007896976758950155,
+        "field_Einf": 0.0010528373451866287
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.3053669256635203e-11,
+        "linear_pde_max": 2.1236346015029994e-11,
+        "field_E2": 0.0008614014393124935,
+        "field_Einf": 0.0013595858270130416
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.512645564361037e-11,
+        "linear_pde_max": 1.5954126908468425e-11,
+        "field_E2": 0.0007388267038233042,
+        "field_Einf": 0.0011954994452170104
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.008262817600476889,
+      "q_each": [
+        0.00790578188034272,
+        0.008475734053390393,
+        0.008395415964256634
+      ],
+      "g_scaled_rms": 0.00021962575624330825,
+      "g_each": [
+        0.00020163814492540408,
+        0.00023824129192168836,
+        0.00021746163742338958
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.09959301131777673,
+      -0.09841357412530975,
+      -0.09769303916090272
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_A_e0.01_s1",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.4432455230917185e-11,
+        "linear_pde_max": 1.7774115512736444e-11,
+        "field_E2": 0.0009521970253141861,
+        "field_Einf": 0.001386066384885842
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 8.511191751381375e-12,
+        "linear_pde_max": 1.3431922241124994e-11,
+        "field_E2": 0.0009778345188256555,
+        "field_Einf": 0.0015130697371596442
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.876432342839962e-11,
+        "linear_pde_max": 1.9531154471508216e-11,
+        "field_E2": 0.0008535262985700625,
+        "field_Einf": 0.0012598075603648543
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.007820985936531145,
+      "q_each": [
+        0.006993547288719193,
+        0.008515059561710822,
+        0.007879563442172376
+      ],
+      "g_scaled_rms": 0.00020505460611024658,
+      "g_each": [
+        0.00023470484780528658,
+        0.00017608106350484382,
+        0.0002001281288394651
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.09756084921085503,
+      -0.09742009784765082,
+      -0.09917805388614565
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_A_e0.01_s2",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.8460899475769565e-11,
+        "linear_pde_max": 2.3126167647546936e-11,
+        "field_E2": 0.0008184847180061534,
+        "field_Einf": 0.001428102188880012
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.5750845072659558e-11,
+        "linear_pde_max": 2.477773541897932e-11,
+        "field_E2": 0.0008944826027919083,
+        "field_Einf": 0.0015428796282292016
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 2.8780311467357933e-11,
+        "linear_pde_max": 2.871214377364595e-11,
+        "field_E2": 0.0007398836874007348,
+        "field_Einf": 0.0012372158769131609
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.007980346288637264,
+      "q_each": [
+        0.008143945321441628,
+        0.00786546831507031,
+        0.007928956012344479
+      ],
+      "g_scaled_rms": 0.00023465430389599414,
+      "g_each": [
+        0.00023979765680905523,
+        0.0002428995545035843,
+        0.00022064636235747819
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.1020000000298982,
+      -0.10200063609921563,
+      -0.09109035254085393
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_A_e0.01_s3",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 4.031108780111481e-12,
+        "linear_pde_max": 4.632516592550928e-12,
+        "field_E2": 0.002163532580428941,
+        "field_Einf": 0.0032046971530729227
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.0164757924258083e-11,
+        "linear_pde_max": 1.5404566511278972e-11,
+        "field_E2": 0.002197350946963626,
+        "field_Einf": 0.0035803565293114348
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 2.3195445564283546e-11,
+        "linear_pde_max": 2.3719692876511544e-11,
+        "field_E2": 0.0019736411213279255,
+        "field_Einf": 0.002978300441635568
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.008875778708820068,
+      "q_each": [
+        0.00934883769501756,
+        0.008931114701780709,
+        0.008317016712721344
+      ],
+      "g_scaled_rms": 0.00024336654325962103,
+      "g_each": [
+        0.00023699610402545262,
+        0.00025125636727975744,
+        0.00024162969128926911
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.10096077421563943,
+      -0.09838881286648762,
+      -0.10200019934792477
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_A_e0.01_s4",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 2.6109114870109806e-12,
+        "linear_pde_max": 3.2009950245992513e-12,
+        "field_E2": 0.0004813906051058555,
+        "field_Einf": 0.0009697390414627996
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 5.010769577040719e-12,
+        "linear_pde_max": 7.312372929391131e-12,
+        "field_E2": 0.0005708276177320383,
+        "field_Einf": 0.0012736152668074198
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.499844692887109e-11,
+        "linear_pde_max": 1.3564482870265238e-11,
+        "field_E2": 0.00042239309861189086,
+        "field_Einf": 0.0012938304543249769
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.00871867823489927,
+      "q_each": [
+        0.008533901217017213,
+        0.009105048937416494,
+        0.008503920528589247
+      ],
+      "g_scaled_rms": 0.0002291805710794587,
+      "g_each": [
+        0.00022853064522997216,
+        0.00023524269110444137,
+        0.0002236198178910658
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.1020000040113051,
+      -0.10240677502052162,
+      -0.09738665739338
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_A_e0_s0",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": true,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 7.805533996929626e-12,
+        "linear_pde_max": 8.520517624788226e-12,
+        "field_E2": 2.79044145579326e-06,
+        "field_Einf": 3.569004241311433e-06
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 3.901878820045113e-12,
+        "linear_pde_max": 6.5143446192905685e-12,
+        "field_E2": 3.4122182163966424e-06,
+        "field_Einf": 4.504607334416243e-06
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 2.2733370741434555e-11,
+        "linear_pde_max": 2.2059021276277235e-11,
+        "field_E2": 2.4590543214323456e-06,
+        "field_Einf": 3.130100686367365e-06
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 1.0940754832444461e-05,
+      "q_each": [
+        4.7643646686825135e-06,
+        1.757404390386073e-05,
+        5.249205566555363e-06
+      ],
+      "g_scaled_rms": 5.654431340521089e-07,
+      "g_each": [
+        4.400345983521166e-07,
+        7.743453759033638e-07,
+        4.073531693876745e-07
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.8998792433117787,
+      -0.9711742920637235,
+      -0.7572579697881736
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0.01_s0",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 3.1690872148715243e-11,
+        "linear_pde_max": 3.20102833128999e-11,
+        "field_E2": 0.0013713109865865734,
+        "field_Einf": 0.0017144984543642332
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 6.727307599874166e-11,
+        "linear_pde_max": 7.862377415790434e-11,
+        "field_E2": 0.0016344474280322154,
+        "field_Einf": 0.002098674967927024
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 4.590638980062067e-11,
+        "linear_pde_max": 3.5094371853006123e-11,
+        "field_E2": 0.001277037634779777,
+        "field_Einf": 0.0016552396216605414
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.008493199730813092,
+      "q_each": [
+        0.008238648477357793,
+        0.008601507929528183,
+        0.008633774238839272
+      ],
+      "g_scaled_rms": 0.00022024026377162045,
+      "g_each": [
+        0.00019207070475865302,
+        0.00022414306615854275,
+        0.0002416320583555508
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.09315426685082652,
+      -0.10200000001000153,
+      -0.10200000000989268
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0.01_s1",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": true,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 4.1145753471028e-11,
+        "linear_pde_max": 3.7009728615089443e-11,
+        "field_E2": 0.0014098171902225756,
+        "field_Einf": 0.0022649903206060193
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 3.0419888830124364e-11,
+        "linear_pde_max": 3.4471314691586485e-11,
+        "field_E2": 0.0015489048392139959,
+        "field_Einf": 0.002525836367265982
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.7248091843669044e-10,
+        "linear_pde_max": 1.3681633603823684e-10,
+        "field_E2": 0.0012799629356615683,
+        "field_Einf": 0.0020893346927304836
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.008101914369266397,
+      "q_each": [
+        0.0074762919214579355,
+        0.008408335546391664,
+        0.008386179212561889
+      ],
+      "g_scaled_rms": 0.00021663513375599807,
+      "g_each": [
+        0.00022874593796126438,
+        0.00022604046955844548,
+        0.00019332187025904854
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.1010961400944815,
+      -0.10072777008069182,
+      -0.10200102757195678
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0.01_s2",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 2.9463986805922104e-11,
+        "linear_pde_max": 2.8206104119021802e-11,
+        "field_E2": 0.001158357003270962,
+        "field_Einf": 0.001803172563956761
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 9.660494626473337e-12,
+        "linear_pde_max": 1.0054179711005418e-11,
+        "field_E2": 0.001388920970991644,
+        "field_Einf": 0.002266117127106928
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 9.283640522994574e-11,
+        "linear_pde_max": 7.122191725272842e-11,
+        "field_E2": 0.001047645238921862,
+        "field_Einf": 0.0016556165690017224
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.008204054533709124,
+      "q_each": [
+        0.008273414248971841,
+        0.00803607767716965,
+        0.008300096662547074
+      ],
+      "g_scaled_rms": 0.00023791870359583645,
+      "g_each": [
+        0.00023097084703293,
+        0.0002535621305288969,
+        0.0002284176927138262
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.09484053787072429,
+      -0.10200145045775985,
+      -0.10122964324171292
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0.01_s3",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 5.009548331713631e-12,
+        "linear_pde_max": 4.2452708015616736e-12,
+        "field_E2": 0.0018346666500846508,
+        "field_Einf": 0.0027696538628592354
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 8.239853244162987e-12,
+        "linear_pde_max": 8.812506280264643e-12,
+        "field_E2": 0.0018948605333644144,
+        "field_Einf": 0.003049186116134611
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.2276624161700056e-11,
+        "linear_pde_max": 9.383160914921973e-12,
+        "field_E2": 0.0017122410964201058,
+        "field_Einf": 0.0025886769650628667
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.0092936987125142,
+      "q_each": [
+        0.009380552976130887,
+        0.009681933370292616,
+        0.008796811885687938
+      ],
+      "g_scaled_rms": 0.0002561389845128935,
+      "g_each": [
+        0.00023784435183247038,
+        0.0002751476417522907,
+        0.0002540578235391189
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.09378908966215217,
+      -0.096783635978014,
+      -0.10143730567100331
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0.01_s4",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 9.653611243720661e-12,
+        "linear_pde_max": 8.259171124791465e-12,
+        "field_E2": 0.0008259479838577217,
+        "field_Einf": 0.0009564059807335768
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 6.48658904367494e-12,
+        "linear_pde_max": 6.6489036498751375e-12,
+        "field_E2": 0.001076952014723108,
+        "field_Einf": 0.0015492023388112548
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 5.28310728498127e-12,
+        "linear_pde_max": 3.86424225951032e-12,
+        "field_E2": 0.0007866454173019587,
+        "field_Einf": 0.0011535369514276443
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.009077476935521477,
+      "q_each": [
+        0.008718678125026297,
+        0.009562259221279625,
+        0.008930263875273441
+      ],
+      "g_scaled_rms": 0.00023974810745699016,
+      "g_each": [
+        0.00019989439315727472,
+        0.000269120313148466,
+        0.0002450590821062994
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.10120712938430089,
+      -0.09740775861695732,
+      -0.10055985774339687
+    ],
+    "additional_97_strictly_concave": true
+  },
+  {
+    "run_id": "LENS_B_e0_s0",
+    "training_129_grid_feasible": true,
+    "additional_97_grid_floor_01": false,
+    "physical_fields": [
+      {
+        "load": 0,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.199262911200094e-12,
+        "linear_pde_max": 1.056932319443149e-12,
+        "field_E2": 0.0002084741613541759,
+        "field_Einf": 0.000306781105092313
+      },
+      {
+        "load": 1,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.2878587085651816e-13,
+        "linear_pde_max": 1.8429702208777599e-13,
+        "field_E2": 0.0002536239329968412,
+        "field_Einf": 0.00039657267660997853
+      },
+      {
+        "load": 2,
+        "n_grid": 3205,
+        "n_out": 0,
+        "source_pde_max": 1.6018297799291759e-12,
+        "linear_pde_max": 1.2065903831626201e-12,
+        "field_E2": 0.00018722341372246325,
+        "field_Einf": 0.00028770432999225076
+      }
+    ],
+    "actual_boundary": {
+      "q_relative_rms": 0.0006072644977219913,
+      "q_each": [
+        0.0004921521188249092,
+        0.0006967512547329373,
+        0.0006153328298935924
+      ],
+      "g_scaled_rms": 3.3232376804911494e-05,
+      "g_each": [
+        2.705902330913847e-05,
+        3.9164244533172e-05,
+        3.2359601542853824e-05
+      ],
+      "n_out": 0
+    },
+    "chart_max_wtt_97": [
+      -0.0939139020162801,
+      -0.10200000001000385,
+      -0.09697219710280842
+    ],
+    "additional_97_strictly_concave": true
+  }
+]

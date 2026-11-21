@@ -1,0 +1,179 @@
+{
+  "version": "572fb34fe54f4331e71572a57998792a7d7a8dce169c1dc96b6387b9023cf3f0",
+  "protocol": {
+    "K": 24,
+    "m": 256,
+    "lambda_joint": 0.4,
+    "delta": 0.1,
+    "iota": 0.02,
+    "mu_warm": 1e-08,
+    "rounds": [
+      60,
+      60,
+      200
+    ],
+    "coarse_K": 4,
+    "certificate_grid": 61,
+    "certificate_edge": 1025,
+    "audit_grid": 65,
+    "pde_grid": 65,
+    "metrics_grid": 65,
+    "audit_edge": 4097,
+    "t_pad": 0.05,
+    "curvature_guard_factor": 1.02,
+    "residual": "joint_square",
+    "coordinates": "stable_fixed_representative",
+    "curvature_step": "active_set_Schur_LM",
+    "query_points": 10000,
+    "query_reps": 5,
+    "boundary_audit": 2048,
+    "threads": 4
+  },
+  "cases": [
+    {
+      "id": "B_S_S_f0",
+      "group": "B",
+      "region": "S",
+      "target": "S",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_S_D_f1",
+      "group": "B",
+      "region": "S",
+      "target": "D",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_S_P_f0",
+      "group": "B",
+      "region": "S",
+      "target": "P",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_S_E_f1",
+      "group": "B",
+      "region": "S",
+      "target": "E",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_D_S_f1",
+      "group": "B",
+      "region": "D",
+      "target": "S",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_D_D_f0",
+      "group": "B",
+      "region": "D",
+      "target": "D",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_D_P_f1",
+      "group": "B",
+      "region": "D",
+      "target": "P",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_D_E_f0",
+      "group": "B",
+      "region": "D",
+      "target": "E",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_P_S_f0",
+      "group": "B",
+      "region": "P",
+      "target": "S",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_P_D_f1",
+      "group": "B",
+      "region": "P",
+      "target": "D",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_P_P_f0",
+      "group": "B",
+      "region": "P",
+      "target": "P",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_P_E_f1",
+      "group": "B",
+      "region": "P",
+      "target": "E",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_E_S_f1",
+      "group": "B",
+      "region": "E",
+      "target": "S",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_E_D_f0",
+      "group": "B",
+      "region": "E",
+      "target": "D",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_E_P_f1",
+      "group": "B",
+      "region": "E",
+      "target": "P",
+      "source": 1,
+      "K": 24,
+      "m": 256
+    },
+    {
+      "id": "B_E_E_f0",
+      "group": "B",
+      "region": "E",
+      "target": "E",
+      "source": 0,
+      "K": 24,
+      "m": 256
+    }
+  ],
+  "design": "OA(16;4,4,2;2), source/target pairs complete; source levels SDPE; f=(i+j)%2; no independent full interaction estimates"
+}

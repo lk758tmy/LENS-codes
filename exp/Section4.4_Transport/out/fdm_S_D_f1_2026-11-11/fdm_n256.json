@@ -1,0 +1,22 @@
+{
+  "n": 256,
+  "spacing": 0.00390625,
+  "unknown_nodes": 65025,
+  "stencil_condition": 15,
+  "angular_directions": 1024,
+  "iterations": 7,
+  "residual_inf": 2.8651629679909973e-12,
+  "compatibility_alpha": 0.023595544795089973,
+  "seconds": {
+    "build": 0.0027692000148817897,
+    "solve": 103.17391509999288
+  },
+  "fdm": {
+    "dH": 0.005673194384606229,
+    "relative_area_error": 0.0054740473745208415,
+    "signed_area": 1.0054740473745207,
+    "forward_max": 0.005673194384606229,
+    "backward_max": 0.005550156656120973,
+    "self_crossing": false
+  }
+}

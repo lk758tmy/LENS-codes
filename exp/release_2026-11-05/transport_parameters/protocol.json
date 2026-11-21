@@ -1,0 +1,26 @@
+{
+  "version": "d896ad5bec0807f9645c6f18385d2d1aeac32a59f50c5bbac55dd9598cb0c2cc",
+  "protocol": {
+    "case": "S_to_P_f0",
+    "m": 256,
+    "nu": 0.0,
+    "source_vertices": false,
+    "delta": 0.1,
+    "iota": 0.02,
+    "mu": 1e-08,
+    "rounds": [
+      60,
+      60,
+      200
+    ],
+    "coarse_K": 4,
+    "threads": 4,
+    "training_curvature": "61^2+4x1025",
+    "audit": "65^2+4x4097",
+    "pde_grid": 65,
+    "metrics_grid": 65,
+    "boundary_audit": 2048,
+    "query_timing_omitted": true,
+    "box_modes": "full:5%+0.001; target:exact known target t projection"
+  }
+}

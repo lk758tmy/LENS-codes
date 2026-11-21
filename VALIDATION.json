@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-20",
+  "platform": "Windows; Python 3.14.6; CPU float64; 4 threads",
+  "mathematical_regression_scripts": 10,
+  "mathematical_regression_status": "passed",
+  "frozen_table_exports": "Forward tables.tex and inverse table_inverse_body.tex match original project SHA-256.",
+  "full_frozen_export": "All eight paper figures plus horizontal time-curve alternative regenerated successfully.",
+  "ot_external_smoke": {
+    "status": "passed",
+    "n": 8,
+    "commit": "d84acdc3d18614a174ff6b4b39b3d3aaa01396ee",
+    "residual_inf": 3.752553823233029e-13,
+    "dependency": "Existing local agd 0.2.16; upstream ma.py at pinned commit"
+  },
+  "upstream_download_sha256": "9c6b641d248061a36fb1f2bab19b2c00dd866ce33bba45b981e669d5fc4c8b41",
+  "full_fresh_retraining": "Not performed during packaging; explicit train plan and CLI paths provided.",
+  "fresh_environment_install": "Not performed; validation used the recorded local Python installation.",
+  "raw_data": "Original selected JSONL lines and copied model/field files preserved without numerical modification.",
+  "original_project": "Read only throughout packaging.",
+  "isolated_zip_extraction": "passed",
+  "isolated_full_export": "passed; all figures and exact table checks",
+  "npz_load_check": "156 files; all arrays load with allow_pickle=False",
+  "numerical_core_integrity": "All lens/ and refs/ modules byte-identical to originals.",
+  "selected_raw_lines": "Every selected JSONL line verified against original bytes.",
+  "external_fetch": "Actually fetched pinned upstream ma.py successfully; Git-blob SHA-256 verified.",
+  "training_plan": "All sequential commands printed successfully from the isolated extracted directory."
+}

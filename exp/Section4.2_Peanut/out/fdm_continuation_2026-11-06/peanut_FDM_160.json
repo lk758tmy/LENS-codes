@@ -1,0 +1,81 @@
+{
+  "run_id": "peanut_FDM_160",
+  "domain": "peanut",
+  "method": "FDM",
+  "nx": 160,
+  "ny": 136,
+  "power": {
+    "available": true,
+    "ac_line_status": 1,
+    "battery_percent": 100
+  },
+  "metrics": {
+    "E2": 1.539991736472703e-06,
+    "Einf": 2.081693162969446e-06,
+    "u_scale": 1.6145136204892514,
+    "gauge": 1.7433185442028003e-06,
+    "residual_inf": 5.617943887870069e-10,
+    "min_eig": 0.4327539327293961,
+    "unknowns": 17891
+  },
+  "timing": {
+    "build": 0.09312500001396984,
+    "fit": 1.9985605999827385
+  },
+  "iterations": 18,
+  "status": "converged",
+  "continuation": {
+    "fallback": true,
+    "quadratic_affine": [
+      1.232822602223164,
+      3.7183784939998077e-09,
+      1.2745466917862784
+    ],
+    "initial_min_eig": -0.8480500154182664,
+    "attempts": [
+      {
+        "level": 0.1,
+        "step": 0.1,
+        "predictor_min_eig": 0.8151949984585372,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.25,
+        "step": 0.15,
+        "predictor_min_eig": 0.579775475192946,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.47500000000000003,
+        "step": 0.22500000000000003,
+        "predictor_min_eig": 0.3167389189602545,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.7250000000000001,
+        "step": 0.25000000000000006,
+        "predictor_min_eig": 0.1692116303856892,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 0.9750000000000001,
+        "step": 0.25,
+        "predictor_min_eig": 0.10755810610316985,
+        "status": "converged",
+        "iterations": 3
+      },
+      {
+        "level": 1.0,
+        "step": 0.02499999999999991,
+        "predictor_min_eig": 0.4090884477595569,
+        "status": "converged",
+        "iterations": 3
+      }
+    ],
+    "interior_initialization": "explicit quadratic plus discrete harmonic boundary lifting; no interior truth"
+  }
+}

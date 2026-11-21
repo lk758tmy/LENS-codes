@@ -1,0 +1,20 @@
+{
+  "source": 1,
+  "nx": [
+    40,
+    80,
+    160
+  ],
+  "step_initial": 0.1,
+  "step_max": 0.25,
+  "step_min": 1.52587890625e-05,
+  "newton_maxit": 60,
+  "newton_tolerance": 2e-08,
+  "all_steps_convex": true,
+  "hashes": {
+    "exp/Section4.2_Peanut/fdm_continuation.py": "ebc40c7359a4e613581d286136d764a17deffab360316412046b854132be5ed6",
+    "exp/Section4.2_Peanut/peanut_geometry.py": "f92cbd1deb10ed91341d30aa839036a2e55b90fc35cd72b5af53ea015fa5df83",
+    "refs/fdm.py": "ec58b556b21f8ba9659511159d91f2e5676fb4dbacfcd92dc28c3809b78596e9",
+    "lens/truth.py": "2cafb520f12fcc056ea6178e4c9cbec500baa5e4fc35fce29e53fa3120f959a2"
+  }
+}

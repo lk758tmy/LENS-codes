@@ -1,0 +1,19 @@
+{
+  "data_root": "exp/release_2026-11-05",
+  "date": "2026-11-05",
+  "metric": "Dirichlet: uncentered reference norm; OT: mean-aligned potentials and centered reference norm",
+  "supplements": {
+    "section42": "exp/Section4.2_Peanut/out/supplement_2026-11-06",
+    "section42_fdm": "exp/Section4.2_Peanut/out/fdm_continuation_2026-11-06",
+    "section43": "exp/Section4.3_RHS/out/nonfamily_2026-11-09",
+    "section44_fdm": "exp/Section4.4_Transport/out/fdm_S_D_f1_2026-11-11/comparison.json",
+    "section44_superellipse": "exp/Section4.4_Transport/out/superellipse_2026-11-11"
+  },
+  "paper_domain_codes": {
+    "triangle": "T",
+    "peanut": "P",
+    "legacy_transport_triangle": "P in immutable case IDs",
+    "superellipse4": "U"
+  },
+  "active_rhs_cases": 4
+}
