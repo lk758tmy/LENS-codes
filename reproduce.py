@@ -30,7 +30,7 @@ def export(args):
                '--ot-fdm-comparison',rerun/'ot_fdm/comparison.json']
     call('exp/export_tables.py','--out',out/'forward','--figures','--no-paper-check',*extra)
     call('exp/Section5_Inverse/export_budget.py','--data-root',inverse,'--out',out/'inverse',
-         '--report-time','100','--time-max','100','--no-paper-check')
+         '--report-time','200','--time-max','100','--no-paper-check')
     env=dict(ENV,LENS_FIGURE_OUT=str(fig))
     call('exp/Section4.1_Regions/make_regions_figure.py',env=env)
     call('exp/Section4.2_Peanut/plot_peanut_error.py','--data-root',data/'dirichlet','--out',fig/'fig_peanut_error.pdf')

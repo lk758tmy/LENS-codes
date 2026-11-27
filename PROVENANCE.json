@@ -190,7 +190,7 @@
     },
     "exp/Section5_Inverse/run_budget.py": {
       "original": "exp/Section5_Inverse/run_budget.py",
-      "sha256": "27bc406467d22506a0b624c0e7845c6706643a55bcbfd9ecfa7e019b26eedf80"
+      "sha256": "208e537f43a977942232fa42f9bd27ae0ac69676d04858eda1492a3a70508261"
     },
     "exp/Section5_Inverse/reference.py": {
       "original": "exp/Section5_Inverse/reference.py",
@@ -202,7 +202,7 @@
     },
     "exp/Section5_Inverse/export_budget.py": {
       "original": "exp/Section5_Inverse/export_budget.py",
-      "sha256": "0f47b8983a454373bda3972af5d612e959fe96452e4ac41c90741786bd9babbf"
+      "sha256": "f0f5461fb079bffb6d4be79ec968f5ded69fa31f8a4bbf12cf45f431bc1690e8"
     },
     "tests/test_repairs.py": {
       "original": "tests/test_repairs.py",
@@ -861,208 +861,208 @@
       "sha256": "d19927b31cc77823642c6353702a66c1b6403ecebe9e117cd7313e504b160b79"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s0.json",
-      "sha256": "261836b203b54db76f652f9e952fe6fc412d89a63ce3d6f3c25168f45daf9882"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s0.json",
+      "sha256": "f7a6bad7323dc9b63269c88bff6bdeb497d78a964041d283140337244491c90b"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s0.npz",
-      "sha256": "f3d9dc43e88000bd4a2d99b390e51f4dbe26f7d882a314fc327d0f0517c1e539"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s0.npz",
+      "sha256": "f47f80e04fa8a37d667d3bc5718405e18a6a894a6100d8ae2999838c9f9ec00d"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s1.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s1.json",
-      "sha256": "2f9a925edef3ff876fa6fa19663ce5e822457a8566f6ece829540d8ac4220bc3"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s1.json",
+      "sha256": "2c6df7cdc7a128cceaa131f10edc02cb531a93ef86522028f16b1ddc59adb436"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s1.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s1.npz",
-      "sha256": "97c2b10b826f1df79c5266d018948a09646a2ac218f513fafab969149311f28a"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s1.npz",
+      "sha256": "3a09f20c4cbe5b41dcb406a059f0ebafb5a1f4914b7104169b8a05ef359c261e"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s2.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s2.json",
-      "sha256": "ca975dca673f93e2433aa5a76ca1e3479957abf5368782f726bbb67dd6388bd7"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s2.json",
+      "sha256": "39b88f48f49e2e738a7a02152e749395d2acd9d92a746e0b995a9ceb33409cba"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s2.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s2.npz",
-      "sha256": "42bd6dd6f99557ac0849d5373428f1c37832ebf58da21b2408e60eebaf407f88"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s2.npz",
+      "sha256": "cf8e2ce23aa90705fdcad095ff867460b3a5c86e6e67035cae18076050597134"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s3.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s3.json",
-      "sha256": "d654d2c0f1b4e76eac809cb7b7d803896c810cea0f98316f1c84ffda4d24ddc6"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s3.json",
+      "sha256": "2e09646e565e04238ce39e9d0f77acd1c28651bd7d33d95db8dc7dd27b98b855"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s3.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s3.npz",
-      "sha256": "4b3b08510007cbf6dccfed258ba5e745facca56219d1d098cf20b3827e5923be"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s3.npz",
+      "sha256": "66c47efff309fc545f82b71b5c38d143f9174164b90673827a08e11ef627fec4"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s4.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s4.json",
-      "sha256": "291d1865219b591c68fa008eaf229c958bb632ad020ea5b9b6b6466aec50b40b"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s4.json",
+      "sha256": "37b24f3891b77064a9982f80dfcf04ab0fdc7b294326cb9ab330190ecd6de2c2"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s4.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0.01_s4.npz",
-      "sha256": "3716642139c515cab5f1fcacdad685938dd799f8e9f2b1302720bc18abf4e300"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0.01_s4.npz",
+      "sha256": "cea95551a0255d0a295c4a92ceac9637e1833a89fb8401754ae30956ef58f74d"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0_s0.json",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0_s0.json",
       "sha256": "12685c12f1ebff8dccd799e55b80a605915f57525470ba6641ccc74e54d70631"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_A_e0_s0.npz",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_A_e0_s0.npz",
       "sha256": "1eb5cb9bce2c9f6c6863ce92e4dd1b71bf23309b9e200411abb0219f2654e420"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s0.json",
-      "sha256": "91d94c2be0b330e19e5c3bf2857a581ecceb56cba182ba902bc35a586f1df43d"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s0.json",
+      "sha256": "a02831766378ec3746859fef4497c473c24822df2bad8b096e4f378c566cb077"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s0.npz",
-      "sha256": "376bb484368b17f6b70ff773b8ec65aa84915db27bc954c1cd2b9a36e36e5ac0"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s0.npz",
+      "sha256": "648fa8c1ca17146a6e28c1676ca6507e538cc24cfa7f02daa0aa2b3a1c2fb806"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s1.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s1.json",
-      "sha256": "83be91ec496a6a5c28bed567c32be17f3152482af3ee18e755067ced81527f17"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s1.json",
+      "sha256": "3f35e19c1e74239b8086eb911e2a5f181ae5611dd73b954ade20729d14cb96c9"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s1.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s1.npz",
-      "sha256": "4221e1218ee4526270116f766ba659db8caeb89fd86d031221ce0f71065eeb45"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s1.npz",
+      "sha256": "25ddd1799a375dfe58c3f17f4debff7457c58c23c62e836bd13731987dce56b5"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s2.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s2.json",
-      "sha256": "63999123b33ee007fa8ca114444837e94a7a1564e34116a0fc1ed05103619ba6"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s2.json",
+      "sha256": "a8da5c860675ac18f205ab1ab8628ae902ca6497d2b9eff9ebbe1c57e02feff7"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s2.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s2.npz",
-      "sha256": "d6e6610287dcd9e9ef8a520287db65ad1bd9386bc32d4dec5d4e204d18d33e9e"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s2.npz",
+      "sha256": "c9821ad473296a36718e5da27dcfbc09d2ed6f239f33a4bfb094f2238cebafa9"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s3.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s3.json",
-      "sha256": "4ffe96acbdf316d95512a0193b71805147a20ee28ec30399ec91cd43348b9f98"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s3.json",
+      "sha256": "f12ed35b07e65e5789a26d6b5594365bc73c739f457c7456a7a7390b99fdb14d"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s3.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s3.npz",
-      "sha256": "c86447fefd6b37a7c436044a5d12f0b634349168ecc7d9cf5e7541eefe16b53b"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s3.npz",
+      "sha256": "41e08e31591cfa1faa4eb8cbc0c675b088beabc0fe400c19de59af22b5b971fb"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s4.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s4.json",
-      "sha256": "3cf71055c3dfec8bccb0dbd4277033ae2bc02fd78fe8d54eed97f035f3ab33ca"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s4.json",
+      "sha256": "b3278b7ffee75060648e88c21a326c64c404e34cc17767e86b4c6be1bc1cfda7"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s4.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0.01_s4.npz",
-      "sha256": "65ff1c47d1db8ec99f8e147fcbc57842d56fcffe06413dc8db36ab721f967799"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0.01_s4.npz",
+      "sha256": "fb194f4a6dfaf7eece05adf6e0923e517dcbbe437a0596142ec49d97e8a74e65"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0_s0.json",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0_s0.json",
       "sha256": "71ad993a3f95a650fd373adf3cee509e7f80ecc4b4111db1bb54510cffc4c015"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/FDM_B_e0_s0.npz",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/FDM_B_e0_s0.npz",
       "sha256": "cce6cdf903e09de598629eff9930f91ee41e7e9d630795ae4c1da2bb67fe4eef"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/fdm_iteration_curves.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/fdm_iteration_curves.json",
-      "sha256": "121891704c1823341e31044ca7097ba479fe4db35e20f843981649ea257ec07e"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/fdm_iteration_curves.json",
+      "sha256": "323da5fd4512753739c72c6a76d2f99187ea03eeae4ee66ec004298e454d2999"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/final_audit.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/final_audit.json",
-      "sha256": "c48c1b9fc67bb93e9fa3e0c0c848f9bae67bfd20331687c1c3370eae2d2dce12"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/final_audit.json",
+      "sha256": "d070d7bc210a886dd4c1849783a4f149714ddb146fc270114a8272627942c213"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s0.json",
-      "sha256": "c93abf24ece9f7481ad0cb64298ad934699c591a3cb747b612569648272dc927"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s0.json",
+      "sha256": "4ec101d17ccb55133139616038523411ab0247540763404621439d623b444b4c"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s0.npz",
-      "sha256": "0295fd999577f2b9fb08504a0005d1ac8c5fb42f6fede971ea26079ef19a0d10"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s0.npz",
+      "sha256": "7b5e769a2f599ca7cae3908b8bad0f2fb85fd58cd3582b8e67b72514a600d2ae"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s1.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s1.json",
-      "sha256": "17e32d195cdaf7feffe66589806f1d3f56afe1f98b6016f8bb2e50fef2871d38"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s1.json",
+      "sha256": "03f16384ef1957f9092f89f9452afedbeb4c39449979b9138b285162601ec4ca"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s1.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s1.npz",
-      "sha256": "521b195ea747587d4a9aeb6a9a31f093137d9d6d78fc0bc46e4eea3478529c7c"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s1.npz",
+      "sha256": "e6c804315610c384e6ee76b157713645916ef6957c60c3c6f5af0da1d95cefd3"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s2.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s2.json",
-      "sha256": "61e0615c7bde5c5da752ee194446244a09dfb6d752f8d73f3d202480ea033641"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s2.json",
+      "sha256": "65669c036bf70910ec9c946fda176d7eea5dbd876e08271cce4ed2b14a80cbcf"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s2.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s2.npz",
-      "sha256": "b82b90d5914ae9048f3b79a364cb6bdd5d98c35f11e59f230fbd7114d9b0d119"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s2.npz",
+      "sha256": "472b49e1e992c96d0a7e0b83afd9b92092b5ea8786fe7965dc0f71c37b5ad6f8"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s3.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s3.json",
-      "sha256": "ed9f15ac957020c4e052dd798e10d71bae15b800dfa2235eda1811b87fd9657c"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s3.json",
+      "sha256": "ce618c913a7820a5f5edd8ebb3ea71716d28e36bc689e29506045a77734d6159"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s3.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s3.npz",
-      "sha256": "3f9186a045b2749c60221d309390f2861f04bc4e2b5217ba118ae71d9deaa681"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s3.npz",
+      "sha256": "ca405928d57fb746476d6d2fc1082c55a31275e91d550b50c9fd1339f7b5dc01"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s4.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s4.json",
-      "sha256": "4c90234e1ae5728834d4f3382257d49e88fb13d0b1a21bb7bbc4b59f05b9b82e"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s4.json",
+      "sha256": "ae7e49f96736bbc4f3c6513bb0027b361d74f2499b510bcf64b6bb1ab6464888"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s4.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0.01_s4.npz",
-      "sha256": "a611bf6cb991cf3839e7aff7cb36b95aaaa1b85992952be9a4f109f3d92ec125"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0.01_s4.npz",
+      "sha256": "a14c780a378051c3ed1ab61345d4aab0be7ad5d00bedaad07b5404a58bec55d8"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0_s0.json",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0_s0.json",
       "sha256": "cf811b5bbceccae7deb4cfc8a178a0703be26be4a7bbf7e77327d48f19c19be5"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_A_e0_s0.npz",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_A_e0_s0.npz",
       "sha256": "ef981f42d037316bd30b51a65347c5bcf2397c6bb87129af304d5aa42b922348"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s0.json",
-      "sha256": "520a4d8a7abfbf539d349c07e085879c38e4670757a2eb003173bca3fe4d10b6"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s0.json",
+      "sha256": "6de38ee18fe8ab81d602b6e3aeeee9485aa6e7449f49e77e1bab434a00ee2f21"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s0.npz",
-      "sha256": "53ad0362b3c605a1cd0c58aebd26cfb0e270c43059f84c8bcfeee78eee03525f"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s0.npz",
+      "sha256": "3f474179154deeb01b62192dbb6e431ee97ff2720ba6416b71b37db52dfcafb6"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s1.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s1.json",
-      "sha256": "661c090b84a4cb2559f0aa5df1d5e2c31589016153d656080a0a0fa99c8be14b"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s1.json",
+      "sha256": "2ae960c397ec20f612daf22b9a02b1c4791bf26ccc8963bdbe5c8ba8f42285ef"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s1.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s1.npz",
-      "sha256": "01d73e5fc36df9a5bc9e709142b572cfae8b113c21623584daeccded8b7b0dc7"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s1.npz",
+      "sha256": "abf8bffc0ab3b42435a0a8d3369db266bf7462ef0917d17bc9abb3c14cd6ef89"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s2.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s2.json",
-      "sha256": "bf9cf3f6cd7e00659b39bac86662b16b6f1b22c38462110b22ba5d66f7446c09"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s2.json",
+      "sha256": "053418b94f42c9efb08958fe0ab2d68c3817ea662193cda7e0a79a61d7bb0fe0"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s2.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s2.npz",
-      "sha256": "11d3cf257a5ef76c799ecfe50ff5e061ccf6992bef5742c920486b0062163606"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s2.npz",
+      "sha256": "975f068e3af92a5dd7542b8f27a583819ddc217faabd6b597e9f9083f8688d14"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s3.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s3.json",
-      "sha256": "59a9e6e95bd0b0f0a0542e690b84ec38f124cc000ea134853f6b2a55319ec58d"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s3.json",
+      "sha256": "103dd62ad6749e119d3c6ece3a50ca8bd59b289db925c62de7e1d30d2a0a158d"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s3.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s3.npz",
-      "sha256": "22686ab63903f95c75d668a30ce7e9f5957e209135d65f395f0b4ac41d87e4f2"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s3.npz",
+      "sha256": "948f2726ab294c464a9a235e25f77fae299eb7c8d782e8f48114c394b18247c8"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s4.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s4.json",
-      "sha256": "a2795e9eccace36ffac8adb803cf14b52395efe58d730773ea840e5b28570140"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s4.json",
+      "sha256": "7aca6f1cfd4cc7026a19a7ec360ae42317cc0f96bfa25843a4bfcc37ca587a85"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s4.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0.01_s4.npz",
-      "sha256": "a4172ca650fbea289e68c2a90050b11a16a67469395efb32627fd4436ea329bc"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0.01_s4.npz",
+      "sha256": "23db267b29991ffde842c0a45088431e4fe89307c3a97077465ba7789c51d5ab"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0_s0.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0_s0.json",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0_s0.json",
       "sha256": "af8a43e5221c4667435c0411dd8522b5a3ba8217d4119f4d4c61e778718bed23"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0_s0.npz": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/LENS_B_e0_s0.npz",
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/LENS_B_e0_s0.npz",
       "sha256": "9b05ffcea8b654c2b800f3a22c03c693f08b7c7b04335f0939af3d18848e5f12"
     },
     "exp/Section5_Inverse/out/budget200_2026-11-19/protocol.json": {
-      "original": "exp/Section5_Inverse/out/budget200_2026-11-19/protocol.json",
-      "sha256": "0d0f037cd1db52f7439ca5ab199a6893becb3fb268cd8090d750455d7bc1960a"
+      "original": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27/protocol.json",
+      "sha256": "7272852987ee0339389cb68c18b2b3570c9950e2048f6b584a3fb4c9c49bd478"
     },
     "exp/Section5_Inverse/out/reference_v1/A_g0_n640.json": {
       "original": "exp/Section5_Inverse/out/reference_v1/A_g0_n640.json",
@@ -1407,7 +1407,89 @@
     {
       "path": "exp/run_release.py",
       "reason": "Keep unchanged power_state helper; omit obsolete legacy batch driver."
+    },
+    {
+      "path": "exp/Section5_Inverse/run_budget.py",
+      "reason": "Adopt fixed rho=1e-9 for all 1% noise cases; noiseless rho=0; original uniform sensors."
+    },
+    {
+      "path": "exp/Section5_Inverse/export_budget.py",
+      "reason": "Report 200s table/profile and first-100s curves; update fixed-rho description."
+    },
+    {
+      "path": "reproduce.py",
+      "reason": "Use --report-time 200 for inverse table."
     }
   ],
-  "excluded": "Historical releases, superseded ellipses, tuning/diagnostics, rho experiments, manuscript and caches. Full adverse cases in the published sweeps are retained."
+  "excluded": "Historical releases, superseded ellipses, tuning/diagnostics, rho experiments, manuscript and caches. Full adverse cases in the published sweeps are retained.",
+  "inverse_update": {
+    "date": "2026-11-27",
+    "rho_noisy": 1e-09,
+    "rho_noiseless": 0,
+    "sampling": "original uniform arclength, 64 normal sensors per load",
+    "budget_seconds": 200,
+    "table_seconds": 200,
+    "profile_seconds": 200,
+    "curve_display_seconds": 100,
+    "new_noisy_runs": 19,
+    "reused_noisy_runs": 1,
+    "reused_noiseless_runs": 4,
+    "reused_case_notes": {
+      "FDM_A_e0_s0.json": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\FDM_A_e0_s0.json",
+        "sha256": "12685c12f1ebff8dccd799e55b80a605915f57525470ba6641ccc74e54d70631",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "FDM_A_e0_s0.npz": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\FDM_A_e0_s0.npz",
+        "sha256": "1eb5cb9bce2c9f6c6863ce92e4dd1b71bf23309b9e200411abb0219f2654e420",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "FDM_B_e0_s0.json": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\FDM_B_e0_s0.json",
+        "sha256": "71ad993a3f95a650fd373adf3cee509e7f80ecc4b4111db1bb54510cffc4c015",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "FDM_B_e0_s0.npz": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\FDM_B_e0_s0.npz",
+        "sha256": "cce6cdf903e09de598629eff9930f91ee41e7e9d630795ae4c1da2bb67fe4eef",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "LENS_A_e0_s0.json": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\LENS_A_e0_s0.json",
+        "sha256": "cf811b5bbceccae7deb4cfc8a178a0703be26be4a7bbf7e77327d48f19c19be5",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "LENS_A_e0_s0.npz": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\LENS_A_e0_s0.npz",
+        "sha256": "ef981f42d037316bd30b51a65347c5bcf2397c6bb87129af304d5aa42b922348",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "LENS_B_e0_s0.json": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\LENS_B_e0_s0.json",
+        "sha256": "af8a43e5221c4667435c0411dd8522b5a3ba8217d4119f4d4c61e778718bed23",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "LENS_B_e0_s0.npz": {
+        "origin": "E:\\Codes\\MongeA LENS\\exp\\Section5_Inverse\\out\\budget200_2026-11-19\\LENS_B_e0_s0.npz",
+        "sha256": "9b05ffcea8b654c2b800f3a22c03c693f08b7c7b04335f0939af3d18848e5f12",
+        "reason": "rho=0 noiseless case unchanged"
+      },
+      "LENS_B_e0.01_s0.json": {
+        "json": "E:\\GPT projects\\MA\\inverse_followup_2026-11-27\\fresh_checks\\B_uniform_fresh_rho1e-09_s0.json",
+        "json_sha256": "5cea709eadc681f565b18c2e6d7c77c1bf1aea39df592346db2f5f8dc5f2d9a8",
+        "npz_sha256": "0bd2014e48d4d17072ccbbde0fb02db5dfcee01ddd18305753e04414c19f74fc",
+        "reason": "Existing complete from-scratch fixed-rho=1e-9 200s run; no continuation"
+      },
+      "LENS_B_e0.01_s0.npz": {
+        "json": "E:\\GPT projects\\MA\\inverse_followup_2026-11-27\\fresh_checks\\B_uniform_fresh_rho1e-09_s0.json",
+        "json_sha256": "5cea709eadc681f565b18c2e6d7c77c1bf1aea39df592346db2f5f8dc5f2d9a8",
+        "npz_sha256": "0bd2014e48d4d17072ccbbde0fb02db5dfcee01ddd18305753e04414c19f74fc",
+        "reason": "Existing complete from-scratch fixed-rho=1e-9 200s run; no continuation"
+      }
+    },
+    "original_data_directory": "exp/Section5_Inverse/out/budget200_rho1e9_2026-11-27",
+    "public_directory_retained_for_compatibility": "exp/Section5_Inverse/out/budget200_2026-11-19/",
+    "public_numerical_core": "lens/ and refs/ byte-identical to 2026-11-20 public release; private optional sensor-angle branch excluded."
+  }
 }

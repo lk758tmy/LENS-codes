@@ -21,7 +21,7 @@ def main(argv=None):
     parser.add_argument('--data-root', type=Path, default=Path(__file__).parent/'out/budget200_2026-11-19')
     parser.add_argument('--out', type=Path, default=Path(__file__).parent/'generated')
     parser.add_argument('--time-max', type=float, default=100., help='Displayed time range; retain the full fitting budget')
-    parser.add_argument('--report-time', type=float, default=100., help='Table cutoff: last saved feasible state at or before this time')
+    parser.add_argument('--report-time', type=float, default=200., help='Table cutoff: last saved feasible state at or before this time')
     parser.add_argument('--no-paper-check', action='store_true')
     args = parser.parse_args(argv)
     if args.time_max<=0 or args.report_time<=0:parser.error('Positive display and report times required')
@@ -205,7 +205,7 @@ def main(argv=None):
     lines = [f'# 反问题比较：{report_end:g}秒表格与{budget:g}秒原始运行','',
         '两源、两方法、无噪声1次及1%噪声5次，共24组。所有种子均计入结果。表内误差为百分数；±为样本标准差。',
         '', '同一源使用相同观测和噪声；源空间均为16阶Chebyshev多项式，初值为1。LENS最终K=24，FDM n='+str(protocol['FDM_n'])+'，独立参考n=640。',
-        '无噪声rho=0，1%噪声统一固定rho=1e-8。未扫描rho，不以真解或验证误差选择迭代点。',
+        '无噪声rho=0，1%噪声统一固定rho=1e-9。正式运行不扫描rho，不以真解或验证误差选择迭代点。',
         f'时间包含各自构建、初始化和训练，排除共享数据读取、模块导入、保存和后验评价。原始运行保留{budget:g}秒内完整求出的最后有效解。表格采用{report_end:g}秒前最后保存的有效状态；达到数值停止条件后保留最终值。',
         f'误差曲线仅展示前{display_end:g}秒，完整200秒原始记录及旧表格另存保留；源重建图仍为200秒终值。记录点间为前值保持，提前数值停止后保持末值。1%噪声曲线为5种子的均值，阴影为范围。验证响应只在拟合时钟停止后求值。',
         '', '|源|噪声 %|方法|E2f %|Einff %|Eqval %|实际训练 s|步数|停止原因|',

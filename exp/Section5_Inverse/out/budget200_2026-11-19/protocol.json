@@ -7,9 +7,9 @@
   "LENS_K": 24,
   "noise_rho": {
     "0": 0.0,
-    "0.01": 1e-08
+    "0.01": 1e-09
   },
-  "rho_rule": "zero for noiseless, otherwise fixed 1e-8; no scan or discrepancy gate",
+  "rho_rule": "zero for noiseless, otherwise fixed 1e-9; no scan or discrepancy gate",
   "source_initial": "1",
   "source_bounds": [
     0.1,
@@ -55,11 +55,11 @@
     "threads": 4
   },
   "hashes": {
-    "exp/Section5_Inverse/run_budget.py": "27bc406467d22506a0b624c0e7845c6706643a55bcbfd9ecfa7e019b26eedf80",
+    "exp/Section5_Inverse/run_budget.py": "208e537f43a977942232fa42f9bd27ae0ac69676d04858eda1492a3a70508261",
     "lens/inverse_basis.py": "3cff3e78ae9a1be6a205898b4f4f5a911df7571527a362d43a9591c80b9b48df",
     "lens/inverse_data.py": "a1dbc27869bd5446b0fa976e6825740bc149f26ce20cadbd1476d746182ef574",
     "lens/inverse_diagnostics.py": "23d12d5eaee083eaf5ee7fec5918f082c8cb57337acd28515829c041dc29b5d8",
-    "lens/inverse_fit.py": "27034331bd7b7898c760f2cf65d49ccfa079b65c6871ec1a29fc8eea576e7320",
+    "lens/inverse_fit.py": "a30472e30ef22847705cfee3a8b35cc94c385eed5e036048b98017c6136478ec",
     "refs/fdm_inverse.py": "b7efced4b4ddf41665e451bd78332fbef612ab93c6415dea8dc0a227c45a4729",
     "refs/fdm.py": "ec58b556b21f8ba9659511159d91f2e5676fb4dbacfcd92dc28c3809b78596e9",
     "lens/constrained_lm.py": "949bdb26e7957e87990b11baecdeea97d4d178102582addff303635df0abca0d",

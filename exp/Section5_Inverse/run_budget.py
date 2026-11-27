@@ -188,8 +188,8 @@ def main():
     hashes = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
     references = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in REFERENCE.glob('*_n640.npz')}
     protocol = dict(version=1, seconds=args.seconds, interval=args.interval, FDM_n=args.n,
-        source_degree=16, LENS_K=24, noise_rho={'0':0., '0.01':1e-8},
-        rho_rule='zero for noiseless, otherwise fixed 1e-8; no scan or discrepancy gate',
+        source_degree=16, LENS_K=24, noise_rho={'0':0., '0.01':1e-9},
+        rho_rule='zero for noiseless, otherwise fixed 1e-9; no scan or discrepancy gate',
         source_initial='1', source_bounds=[.1,3.],
         normal_sensors=64, dirichlet_points=192, validation_points=257, loads=3,
         lens_warmup_stages=[[0,4],[4,8],[8,12],[16,24]], warmup_steps=80,
@@ -217,7 +217,7 @@ def main():
                     if power_before.get('available') and power_before.get('ac_line_status')!=1:
                         raise RuntimeError('AC power required for elapsed-time comparison; saved completed runs are resumable')
                     observed = training_data(label,noise,seed)
-                    rho = 0. if noise==0 else 1e-8
+                    rho = 0. if noise==0 else 1e-9
                     def progress(rec):
                         dump(out/'progress.json',dict(case=rid,**rec))
                         print('PROGRESS',rid,json.dumps(rec),flush=True)
